@@ -5,7 +5,7 @@ module Uniquify
   
   def ensure_unique(name)
     begin
-      self[name] = yield
+      self[name] = yield if self[name].blank?
     end while self.class.exists?(name => self[name])
   end
   
