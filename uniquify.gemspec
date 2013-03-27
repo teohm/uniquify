@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = %q{Generate a unique token with ActiveRecord}
   s.email = %q{eifion@asciicasts.com}
   s.extra_rdoc_files = ["README.rdoc", "lib/uniquify.rb"]
-  s.files = ["README.rdoc", "Rakefile", "lib/uniquify.rb", "Manifest", "uniquify.gemspec"]
+  s.files = ["README.rdoc", "Rakefile", "lib/uniquify.rb", "uniquify.gemspec"]
   s.homepage = %q{http://github.com/eifion/uniquify}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Uniquify", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
